@@ -33,19 +33,26 @@ It is MS Excel based tool to determine criteria importance weights for criteria 
 
 It is a freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah,2017; Wang et al., 2020). The tool implements 14 different MCDM methods (SAW, TOPSIS, VIKOR, etc.) in total and it could be used for extensive performed analysis.
 
-## The data set for the framework
+## The data sets for the framework
 
-The data set (link) was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
+- **Raw data set (link)**
 
-Currently, the data set consists of categorized quantitative and qualitative data reflecting 18 state-of-the-art consensus protocols aggregated from various sources.
+  The raw data set (link) was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
 
-The consensus protocols are grouped by families, and the most popular platform utilizing the protocol is indicated. We also identify the main criteria groups and criteria corresponding to the collected features and metrics. 
+  Currently, the data set consists of categorized quantitative and qualitative data reflecting 18 state-of-the-art consensus protocols aggregated from various sources.
 
-Moreover, together with the collected raw data, we provide the processed data ready to use by various MCDM methods.
+  The consensus protocols are grouped by families, and the most popular platform utilizing the protocol is indicated. We also identify the criteria corresponding to the collected features and metrics. 
 
-Raw data set (link)
+- **Processed data set (link)**
 
-processed data set (link)
+Together with the collected raw data, we provide the processed data set (link) ready to use by various MCDM methods. Then the collected data was processed following these rules:
+
+1. Qualitative units are converted to quantitative ones;
+2. Values represented by intervals are replaced by the mean values (by averaging each interval’s limit values);
+3. Values bounded from above are replaced by the exact bound values;
+4. Zero values are replaced with relatively small values  to  avoid  division  by  zero  error  in  some  MCDM  methods. 
+
+
 
 ## Contribution to the *MCDM-ConSel*
 
