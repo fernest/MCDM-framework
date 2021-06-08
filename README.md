@@ -27,11 +27,11 @@ The more detailed description of each step will be published soon
 
 - **Tool to determine criteria importance weights (link)**
 
-It is MS Excel based tool to determine criteria importance weights for criteria groups and criteria. The tool is based on Analytic Hierarchy Process (AHP) (Saaty, 2008) and pairwise comparisons (Odu, 2019). This tool is build on the basis of excel AHP Spreadsheet provided in https://www.pyzdekinstitute.com/blog/six-sigma/ahp-spreadsheet.html
+It is MS Excel based tool to determine criteria importance weights for criteria groups and criteria. The tool is based on Analytic Hierarchy Process (AHP) (Saaty, 2008) and pairwise comparisons (Odu, 2019). This tool is build on the basis of excel [AHP Spreadsheet](https://www.pyzdekinstitute.com/blog/six-sigma/ahp-spreadsheet.html).
 
 - **Tool with MCDM methods**
 
-It is a freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah,2017; Wang et al., 2020). The tool implements 14 different MCDM methods (SAW, TOPSIS, VIKOR, etc.) in total and it could be used for extensive performed analysis.
+It is a freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah,2017; Wang et al., 2020). The tool implements 14 different MCDM methods (SAW, TOPSIS, VIKOR, etc.) in total, and it could be used for extensive performed analysis. To get the tool, please contact Prof. GP Rangaiah [gprangaiah@nus.edu.sg](mailto:gprangaiah@nus.edu.sg).
 
 ## The data sets for the framework
 
