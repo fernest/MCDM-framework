@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Family | Protocol           | TPS  | Tx. latency | Finality | #consensus nodes | #nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51% attack | Double spending |
 | ------ | ------------------ | :--: | :---------: | :------: | :--------------: | :----: | :----: | :------: | :---------------: | :-----------------: | :-------------: | :--------: | :-------------: |
 | PoW    | Nakamoto           |  7   |    2100     |    1     |     1000000      | 10000  |   13   | 51118992 |         9         |          9          |       50        |     1      |        1        |
@@ -20,6 +21,8 @@
 | DAG    | Tangle             | 300  |    12.5     |    1     |      100000      |   25   | 0.0001 |  0.0001  |         1         |          1          |       50        |     9      |        9        |
 | DAG    | Avalanche          | 4500 |      1      |    1     |       834        |  834   |  0.01  |   7506   |         1         |          1          |       33        |     9      |        9        |
 =======
+=======
+>>>>>>> f65dd1e396e385bb00695db7bc3c98e7ebd7ee7e
 | Family | Protocol           | TPS  | Tx. latency | Finality | # consensus nodes | # nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51% attack | Double spending |
 | ------ | ------------------ | :--: | :---------: | :------: | :---------------: | :-----: | :----: | :------: | :---------------: | :-----------------: | :-------------: | :-------: | :-------------: |
 | PoW    | Nakamoto           |  7   |    2100     |    1     |      1000000      |  10000  |   13   | 51118992 |         9         |          9          |       50        |     1     |        1        |
@@ -40,4 +43,7 @@
 | FBA    | SCP                | 1000 |      5      |    9     |        65         |   44    |  0.01  |  0.0001  |         1         |          1          |       33        |     9     |        9        |
 | DAG    | Tangle             | 300  |    12.5     |    1     |      100000       |   25    | 0.0001 |  0.0001  |         1         |          1          |       50        |     9     |        9        |
 | DAG    | Avalanche          | 4500 |      1      |    1     |        834        |   834   |  0.01  |   7506   |         1         |          1          |       33        |     9     |        9        |
+<<<<<<< HEAD
+>>>>>>> f65dd1e396e385bb00695db7bc3c98e7ebd7ee7e
+=======
 >>>>>>> f65dd1e396e385bb00695db7bc3c98e7ebd7ee7e
