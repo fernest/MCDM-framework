@@ -1,31 +1,57 @@
-# Blockchain-technologijos
+# *MCDM-ConSel* – a Framework for Blockchain Consensus Protocol Selection using MCDM
 
-## Po Egzamino
 
-- **Svarbu/Skubu:** Egzamino metu pildant balus online, trumpam buvo dingęs internetas, ko pasekoje dalis balų "dingo" :( Todėl kuo skubiau prašome, pas tuos, pas ką galutinis balas dingo arba jis įrašytas neteisingas parašyti Jums pratybas vedusiam dėstytojui, kiek Jūs gavote iš egzamino ir mes kuo greičiau pataisysime. Labai ačiū ir visiems geros likusios sesijos!
+## Goal of this repository
 
-## Egzamino užduotis
+Selecting the most suitable consensus protocol for a particular DLT system is essential. At the same time, a challenging step, as developers need to make a trade-off between conflicting requirements of a blockchain system.
 
-[Blokų grandinių technologijų kurso egzamino užduoties formuluotė](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/egzaminas/egzaminas-2020.md)
+This repository provides an Multi-Criteria Decision-Making (MCDM) framework for researchers and practitioners to select the most suitable consensus protocols (or other DLT system components) for specific blockchain systems or applications.
 
-## Svarbi informacija
+## The steps of the *MCDM-ConSel* framework
 
-- **Svarbu:** pagal jūsų viso kurso metu sukauptus kauptukus pasiūlėme daliai iš jūsų preliminarius galutinius balus, o kai kam ir jau oficialius galutinius, nes paprasčiausiai nėra kur gerinti balą :) Tiems, kuriuos tenkina preliminarus galutinis balas, galite rytoj į egzaminą neatvykti ir šis preliminarus balas pavirs galutiniu. Atidžiai patikrinkite, ar neįsivėlė klaida skaičiuojant jūsų balus, nes to tikimybė tikrai yra. 
-- **Sausio 15 d., nuo 13:00 iki 15:00 val.** skiriame Jums laiką atvykti pas mus į ***Akademijos g. 4, 633 kab.*** ir apginti Jūsų dar neatsiskaitytus ***blockchain*** kurso darbus. Egzamino metu bus galima atsiskaityti tik egzamino užduotis.
-- Dalyvavimas egzamine yra neprivalomas, jeigu semestro metu atliekant užduotis surinkote teigiamą balą (>=5). Tikslius Jūsų visų kauptukus suvesime sausio 15 d., kai visi atsiskaitys. Pagal juos daliai iš Jūsų (sukaupusių didžiausius kauptukus) pasiūlysime galutinius balus be dalyvavimo egzamine - įvertinant Jūsų gerą darbą viso semestro metu! Tačiau jeigu jie Jums netiks, galėsite atvykti į egzaminą ir pabandyti įrodyti, kad esate verti dar daugiau!
+- Problem definition
 
-## Praktinės užduotys
+- Selection of the alternatives
 
-- [Praktinių užduočių vertinimas](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/vertinimas.md)
-- [Įvadinė užduotis](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/Ivadine-uzduotis.md)
-- [1-oji užduotis: Hash generatoriaus kūrimas (2 + 0,5 balo)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/1uzduotis-Hashavimas.md)
-  - **Hash'ų efektyvumo varžytuvės**:
-    - [Dominyko Šepučio - Hashrank](https://github.com/dqmis/hashrank)
-    - [Augustino Makevičiaus - TheHashRacer](https://github.com/AugustinasMK/TheHashRacer)
-- [2-oji užduotis: supaprastintos blokų grandinės kūrimas (2 + 1 balas)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/2uzduotis-Blockchain.md)
-- [3-oji užduotis: „Bitcoin Core“ programinės sąsajos naudojimas - python-bitcoinlib (1 balas)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/3uzduotis-Bitcoin-Core-API.md)
-- [4-oji užduotis: išmaniosios sutarties ir decentralizuotos aplikacijos kūrimas (2 + iki 1,5 papildomo balo)](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/pratybos/4uzduotis-SmartContract.md)
-  - [Paskaitos 2019-11-29 medžiaga](https://github.com/blockchain-group/Blockchain-technologijos/blob/master/paskaitos/paskaita-ismanioji_sutartis.md)
+- Selection of the evaluation criteria
 
----
-P.s. Kadangi tai yra pirmi metai, kuomet yra dėstomas šis kursas, todėl tiek jo turinys tiek ir struktūra yra derinama viso kurso metu, siekiant jį padaryti kaip įmanoma naudingesnį ir įdomesnį studentams ir būsimiems specialistams.
+- Data processing
+
+- Criteria weighting
+
+- Ranking alternatives
+
+The more detailed description of each step will be published soon
+
+## The framework‘s tools
+
+A freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah,2017; Wang et al., 2020) is utilized for the experimental investigation.
+
+The tool implements 14 different MCDM methods (SAW, TOPSIS, VIKOR, etc.) in total and it could be used for extensive performed analysis.
+
+## The data set for the framework
+
+The data set was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
+
+Currently, the data set consists of categorized quantitative and qualitative data reflecting 18 state-of-the-art consensus protocols aggregated from various sources.
+
+The consensus protocols are grouped by families, and the most popular platform utilizing the protocol is indicated. We also identify the main criteria groups and criteria corresponding to the collected features and metrics. 
+
+Moreover, together with the collected raw data, we provide the processed data ready to use by various MCDM methods.
+
+## Contribution to the *MCDM-ConSel*
+
+We welcome contributions and corrections to this resource either way:
+
+- **common way** - send us your comments, corrections or     suggestions by email: [ernestas.filatovas@mif.vu.lt](mailto:ernestas.filatovas@mif.vu.lt), [marco.marcozzi@unicam.it](mailto:marco.marcozzi@unicam.it), [remigijus.paulavicius@mif.vu.lt](mailto:remigijus.paulavicius@imperial.ac.uk)
+- **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information     & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and     we gratefully incorporate your contribution!
+
+## Citations
+
+- Wang, Z., Parhi, S.S., Rangaiah, G.P., Jana, A.K., (2020). Analysis of weighting and selection methods for pareto-optimal solutions of multiobjective optimization in chemical engineering applications. *Industrial & Engineering Chemistry Research* 59, 14850–14867. https://doi.org/10.1021/acs.iecr.0c00969
+
+- Wang, Z., Rangaiah, G.P., (2017). Application and analysis of methods for selecting an optimal solution from thepareto-optimal front obtained by multiobjective optimization. *Industrial & Engineering Chemistry Research* 56, 560–574. https://doi.org/10.1021/acs.iecr.6b03453
+
+## Acknowledgment
+
+- This research has been supported by a Grant (No. S-MIP-21-53) from the Research Council of Lithuania.
