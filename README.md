@@ -56,8 +56,8 @@ We welcome contributions and corrections to this resource either way:
 
 ## Citations
 
+- Saaty, T.L., 2008. Decision making with the analytic hierarchy process. *International Journal of Services Sciences* 1, 83–98. https://doi.org/10.1504/IJSSCI.2008.017590 
 - Wang, Z., Parhi, S.S., Rangaiah, G.P., Jana, A.K., (2020). Analysis of weighting and selection methods for pareto-optimal solutions of multiobjective optimization in chemical engineering applications. *Industrial & Engineering Chemistry Research* 59, 14850–14867. https://doi.org/10.1021/acs.iecr.0c00969
-
 - Wang, Z., Rangaiah, G.P., (2017). Application and analysis of methods for selecting an optimal solution from thepareto-optimal front obtained by multiobjective optimization. *Industrial & Engineering Chemistry Research* 56, 560–574. https://doi.org/10.1021/acs.iecr.6b03453
 
 ## Acknowledgment
