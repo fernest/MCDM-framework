@@ -1,4 +1,26 @@
-| Family | Protocol           | TPS  | Tx. latency | Finality | # consensus nodes | # nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51 attack | Double spending |
+<<<<<<< HEAD
+| Family | Protocol           | TPS  | Tx. latency | Finality | #consensus nodes | #nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51% attack | Double spending |
+| ------ | ------------------ | :--: | :---------: | :------: | :--------------: | :----: | :----: | :------: | :---------------: | :-----------------: | :-------------: | :--------: | :-------------: |
+| PoW    | Nakamoto           |  7   |    2100     |    1     |     1000000      | 10000  |   13   | 51118992 |         9         |          9          |       50        |     1      |        1        |
+| PoW    | Nakamoto-GHOST     | 12.5 |     35      |    1     |      100000      |  8359  |   13   | 36435200 |         9         |          9          |       50        |     1      |        1        |
+| PoS    | ProximaX           | 100  |     40      |    1     |       117        |  1371  |  0.05  |  16524   |         1         |          1          |       50        |     1      |        5        |
+| PoS    | Ouroborus          | 1000 |     20      |    1     |      368226      |  1955  |  0.25  | 3132000  |         1         |          1          |       50        |     1      |        5        |
+| PoS    | Algorand           | 1000 |      3      |    9     |       100        |  100   |  0.01  |  800000  |         1         |          1          |       33        |     1      |        5        |
+| PoS    | Tendermint         | 2500 |     6.5     |    9     |      10000       |   20   |  0.5   | 68670000 |         1         |          1          |       33        |     1      |        5        |
+| DPoS   | EOSIO              | 5000 |     126     |    9     |      86371       |   14   | 0.0001 |  23100   |         1         |          1          |       33        |     1      |        1        |
+| PoC    | PoC                |  10  |     90      |    1     |      10000       |  977   |  0.01  | 76.3449  |         5         |          9          |       50        |     1      |        1        |
+| PoI    | PoI                | 4000 |     60      |    1     |       100        |  403   |  0.03  |  733.86  |         1         |          1          |       50        |     9      |        9        |
+| PoA    | PoA probabilistic  |  60  |      5      |    1     |        12        |   12   |  0.01  |   1730   |         1         |          9          |       50        |     9      |        1        |
+| PoA    | PoA deterministic  |  60  |      5      |    9     |        12        |   12   |  0.01  |   1730   |         1         |          9          |       33        |     9      |        9        |
+| PoET   | PoET probabilistic |  7   |     124     |    1     |        15        |   15   | 0.0001 |  0.0001  |         1         |          9          |       50        |     9      |        9        |
+| PoET   | PoET deterministic |  7   |     124     |    9     |        15        |   15   | 0.0001 |  0.0001  |         1         |          9          |       33        |     9      |        9        |
+| dBFT   | dBFT               | 1000 |     20      |    9     |        7         |  100   | 0.0001 |  336000  |         1         |          1          |       33        |     1      |        1        |
+| FBA    | RPCA               | 1500 |      4      |    9     |       100        |  884   |  0.01  |   560    |         1         |          1          |       20        |     9      |        9        |
+| FBA    | SCP                | 1000 |      5      |    9     |        65        |   44   |  0.01  |  0.0001  |         1         |          1          |       33        |     9      |        9        |
+| DAG    | Tangle             | 300  |    12.5     |    1     |      100000      |   25   | 0.0001 |  0.0001  |         1         |          1          |       50        |     9      |        9        |
+| DAG    | Avalanche          | 4500 |      1      |    1     |       834        |  834   |  0.01  |   7506   |         1         |          1          |       33        |     9      |        9        |
+=======
+| Family | Protocol           | TPS  | Tx. latency | Finality | # consensus nodes | # nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51% attack | Double spending |
 | ------ | ------------------ | :--: | :---------: | :------: | :---------------: | :-----: | :----: | :------: | :---------------: | :-----------------: | :-------------: | :-------: | :-------------: |
 | PoW    | Nakamoto           |  7   |    2100     |    1     |      1000000      |  10000  |   13   | 51118992 |         9         |          9          |       50        |     1     |        1        |
 | PoW    | Nakamoto-GHOST     | 12.5 |     35      |    1     |      100000       |  8359   |   13   | 36435200 |         9         |          9          |       50        |     1     |        1        |
@@ -18,3 +40,4 @@
 | FBA    | SCP                | 1000 |      5      |    9     |        65         |   44    |  0.01  |  0.0001  |         1         |          1          |       33        |     9     |        9        |
 | DAG    | Tangle             | 300  |    12.5     |    1     |      100000       |   25    | 0.0001 |  0.0001  |         1         |          1          |       50        |     9     |        9        |
 | DAG    | Avalanche          | 4500 |      1      |    1     |        834        |   834   |  0.01  |   7506   |         1         |          1          |       33        |     9     |        9        |
+>>>>>>> f65dd1e396e385bb00695db7bc3c98e7ebd7ee7e
