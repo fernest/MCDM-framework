@@ -25,7 +25,7 @@ The more detailed description of each step will be published soon
 
 ## The framework‘s tools
 
-- **Tool to determine criteria importance weights**
+- **Tool to determine criteria importance weights (link)**
 
 It is MS Excel based tool to determine criteria importance weights for criteria groups and criteria. The tool is based on Analytic Hierarchy Process (AHP) (Saaty, 2008) and pairwise comparisons (Odu, 2019). This tool is build on the basis of excel AHP Spreadsheet provided in https://www.pyzdekinstitute.com/blog/six-sigma/ahp-spreadsheet.html
 
