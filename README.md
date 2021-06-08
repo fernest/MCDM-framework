@@ -25,19 +25,27 @@ The more detailed description of each step will be published soon
 
 ## The framework‘s tools
 
-A freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah,2017; Wang et al., 2020) is utilized for the experimental investigation.
+- **Tool to determine criteria importance weights**
 
-The tool implements 14 different MCDM methods (SAW, TOPSIS, VIKOR, etc.) in total and it could be used for extensive performed analysis.
+It is MS Excel based tool to determine criteria importance weights for criteria groups and criteria. The tool is based on Analytic Hierarchy Process (AHP) (Saaty, 2008) and pairwise comparisons (Odu, 2019). This tool is build on the basis of excel AHP Spreadsheet provided in https://www.pyzdekinstitute.com/blog/six-sigma/ahp-spreadsheet.html
+
+- **Tool with MCDM methods**
+
+It is a freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah,2017; Wang et al., 2020). The tool implements 14 different MCDM methods (SAW, TOPSIS, VIKOR, etc.) in total and it could be used for extensive performed analysis.
 
 ## The data set for the framework
 
-The data set was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
+The data set (link) was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
 
 Currently, the data set consists of categorized quantitative and qualitative data reflecting 18 state-of-the-art consensus protocols aggregated from various sources.
 
 The consensus protocols are grouped by families, and the most popular platform utilizing the protocol is indicated. We also identify the main criteria groups and criteria corresponding to the collected features and metrics. 
 
 Moreover, together with the collected raw data, we provide the processed data ready to use by various MCDM methods.
+
+Raw data set (link)
+
+processed data set (link)
 
 ## Contribution to the *MCDM-ConSel*
 
