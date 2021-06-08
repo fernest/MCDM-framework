@@ -1,4 +1,4 @@
-| Family | Protocol           | TPS  | Tx. latency | Finality | # consensus nodes | # nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51 attack | Double spending |
+| Family | Protocol           | TPS  | Tx. latency | Finality | # consensus nodes | # nodes |  Fees  |  Reward  | Power consumption | Hardware dependency | Fault-tolerance | 51% attack | Double spending |
 | ------ | ------------------ | :--: | :---------: | :------: | :---------------: | :-----: | :----: | :------: | :---------------: | :-----------------: | :-------------: | :-------: | :-------------: |
 | PoW    | Nakamoto           |  7   |    2100     |    1     |      1000000      |  10000  |   13   | 51118992 |         9         |          9          |       50        |     1     |        1        |
 | PoW    | Nakamoto-GHOST     | 12.5 |     35      |    1     |      100000       |  8359   |   13   | 36435200 |         9         |          9          |       50        |     1     |        1        |
