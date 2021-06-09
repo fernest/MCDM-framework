@@ -21,7 +21,7 @@ This repository provides an Multi-Criteria Decision-Making (MCDM) framework for 
 
 - Ranking alternatives
 
-The more detailed description of each step will be published soon
+The more detailed description of the framework and each step will be published soon
 
 ## The framework‘s tools
 
@@ -58,10 +58,10 @@ Together with the collected raw data, we provide the processed data set (link) r
 
 We welcome contributions and corrections to this resource either way:
 
-- **common way** - send us your comments, corrections or     suggestions by email: [ernestas.filatovas@mif.vu.lt](mailto:ernestas.filatovas@mif.vu.lt), [marco.marcozzi@unicam.it](mailto:marco.marcozzi@unicam.it), [remigijus.paulavicius@mif.vu.lt](mailto:remigijus.paulavicius@imperial.ac.uk)
-- **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information     & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and     we gratefully incorporate your contribution!
+- **common way** - send us your comments, corrections or suggestions by email: [ernestas.filatovas@mif.vu.lt](mailto:ernestas.filatovas@mif.vu.lt), [marco.marcozzi@unicam.it](mailto:marco.marcozzi@unicam.it), [remigijus.paulavicius@mif.vu.lt](mailto:remigijus.paulavicius@imperial.ac.uk)
+- **modern way** - [fork](https://help.github.com/articles/fork-a-repo/) github repository, add new information & correct existing, then create a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) and  we gratefully incorporate your contribution!
 
-## Citations
+## References
 
 - Saaty, T.L., 2008. Decision making with the analytic hierarchy process. *International Journal of Services Sciences* 1, 83–98. https://doi.org/10.1504/IJSSCI.2008.017590 
 - Wang, Z., Parhi, S.S., Rangaiah, G.P., Jana, A.K., (2020). Analysis of weighting and selection methods for pareto-optimal solutions of multiobjective optimization in chemical engineering applications. *Industrial & Engineering Chemistry Research* 59, 14850–14867. https://doi.org/10.1021/acs.iecr.0c00969
