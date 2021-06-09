@@ -25,7 +25,7 @@ The more detailed description of the framework and each step will be published s
 
 ## The framework‘s tools
 
-- **Tool to determine criteria importance weights (link)**
+- [Tool to determine criteria importance weights](Tools/Pairwise-Comparison-2levels-blank.xlsx)
 
 It is MS Excel based tool to determine criteria importance weights for criteria groups and criteria. The tool is based on Analytic Hierarchy Process (AHP) (Saaty, 2008) and pairwise comparisons (Odu, 2019). This tool is build on the basis of excel [AHP Spreadsheet](https://www.pyzdekinstitute.com/blog/six-sigma/ahp-spreadsheet.html).
 
@@ -35,17 +35,17 @@ It is a freely available (on-demand) MS Excel-based MCDM tool (Wang and Rangaiah
 
 ## The data sets for the framework
 
-- **Raw data set (link)**
+- [Raw data set](Data/Consensus-data-raw.md)
 
-  The raw data set (link) was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
+  The raw data set was developed with the aim of identifying the preferable consensus protocols for the blockchain system according to its requirements. 
 
   Currently, the data set consists of categorized quantitative and qualitative data reflecting 18 state-of-the-art consensus protocols aggregated from various sources.
 
   The consensus protocols are grouped by families, and the most popular platform utilizing the protocol is indicated. We also identify the criteria corresponding to the collected features and metrics. 
 
-- **Processed data set (link)**
+- [Processed data set](Data/Consensus-data-processed.md)
 
-Together with the collected raw data, we provide the processed data set (link) ready to use by various MCDM methods. Then the collected data was processed following these rules:
+Together with the collected raw data, we provide the processed data set ready to use by various MCDM methods. Then the collected data was processed following these rules:
 
 1. Qualitative units are converted to quantitative ones;
 2. Values represented by intervals are replaced by the mean values (by averaging each interval’s limit values);
